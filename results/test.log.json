@@ -1,0 +1,40 @@
+{
+  "total_requests": 3,
+  "methods": {
+    "GET": 2,
+    "POST": 1
+  },
+  "top_ips": [
+    [
+      "127.0.0.1",
+      2
+    ],
+    [
+      "192.168.1.1",
+      1
+    ]
+  ],
+  "longest_requests": [
+    {
+      "ip": "127.0.0.1",
+      "method": "GET",
+      "url": "/contact",
+      "duration": 321,
+      "datetime": "01/Jan/2023:12:02:00 +0000"
+    },
+    {
+      "ip": "192.168.1.1",
+      "method": "POST",
+      "url": "/form",
+      "duration": 222,
+      "datetime": "01/Jan/2023:12:01:00 +0000"
+    },
+    {
+      "ip": "127.0.0.1",
+      "method": "GET",
+      "url": "/index.html",
+      "duration": 123,
+      "datetime": "01/Jan/2023:12:00:00 +0000"
+    }
+  ]
+}
